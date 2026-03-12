@@ -4,7 +4,7 @@ const fs = require("fs")
 const app = express()
 app.use(express.json())
 
-let datos = JSON.parse(fs.readFileSync("./datos/bancos.json","utf8"))
+let datos = JSON.parse(fs.readFileSync("./bancos.json","utf8"))
 
 
 app.get("/",(req,res)=>{
@@ -76,4 +76,5 @@ app.delete("/banco/:id/persona/:pid",(req,res)=>{
 
 app.listen(3000,()=>{
     console.log("http://localhost:3000")
+
 })
