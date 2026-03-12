@@ -1,0 +1,133 @@
+{
+    "bancos":[
+        {
+            "id":1,
+            "nombre":"Banco de BHDLeon",
+            "personas":[
+                {
+                    "id":1,
+                    "nombre":"Julio",
+                    "estado":"activo"
+                },
+                {
+                    "id":2,
+                    "nombre":"Maria",   
+                    "estado":"activo"   
+                },
+
+                {
+                    "id":17,
+                    "nombre":"Andres",
+                    "estado":"Retirado"
+                }
+
+            ]
+        },
+        {
+            "id":2,
+            "nombre":"Banco Popular",
+            "personas":[
+                {
+                    "id":3,
+                    "nombre":"Pedro",
+                    "estado":"activo"
+                },
+                {
+                    "id":4,
+                    "nombre":"Ana",
+                    "estado":"inactivo"
+                },
+                    {
+                        "id":18,
+                        "nombre":"Luciano",
+                        "estado":"Retirado"
+                    }
+            ]
+        },
+
+        {
+            "id":3,
+            "nombre":"Banco de Reservas",
+            "personas":[
+                {
+                    "id":5,
+                    "nombre":"Luis"
+                },
+                {
+                    "id":6,
+                    "nombre":"Carlos"
+                }
+            ]
+        },
+            {
+                "id":4,
+                "nombre":"Banco Santa Cruz",
+                "personas":[
+                    {
+                        "id":7,
+                        "nombre":"Sofia"
+                    },
+                    {
+                        "id":8,
+                        "nombre":"Diego"
+                    }
+                ]
+            },
+            {
+                "id":5,
+                "nombre":"Banco Caribe",
+                "personas":[
+                    {
+                        "id":9,
+                        "nombre":"Valentina"
+                    },
+                    {
+                        "id":10,
+                        "nombre":"Mateo"
+                    }
+                ]
+            },
+            {
+                "id":6,
+                "nombre":"Banco Vimenca",
+                "personas":[
+                    {
+                        "id":11,
+                        "nombre":"Camila"
+                    },
+                    {
+                        "id":12,
+                        "nombre":"Santiago"
+                    }
+                ]
+            },
+            {
+                "id":7,
+                "nombre":"Banco Promerica",
+                "personas":[
+                    {
+                        "id":13,
+                        "nombre":"Isabella"
+                    },
+                    {
+                        "id":14,
+                        "nombre":"Sebastian"
+                    }
+                ]
+            },
+            {
+                "id":8,
+                "nombre":"Banco BDI",
+                "personas":[
+                    {
+                        "id":15,
+                        "nombre":"Camilo"
+                    },
+                    {
+                        "id":16,
+                        "nombre":"Lucia"
+                    }
+                ]
+            }
+    ]
+}
